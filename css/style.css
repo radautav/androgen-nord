@@ -1,0 +1,1249 @@
+@charset "UTF-8";
+/*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
+/* Document
+   ========================================================================== */
+/**
+ * 1. Correct the line height in all browsers.
+ * 2. Prevent adjustments of font size after orientation changes in iOS.
+ */
+/* line 11, D:/OSPanel/domains/project-1/src/sass/normalizes.scss */
+html {
+  line-height: 1.15;
+  /* 1 */
+  -webkit-text-size-adjust: 100%;
+  /* 2 */
+}
+
+/* Sections
+   ========================================================================== */
+/**
+ * Remove the margin in all browsers.
+ */
+/* line 23, D:/OSPanel/domains/project-1/src/sass/normalizes.scss */
+body {
+  margin: 0;
+}
+
+/**
+ * Render the `main` element consistently in IE.
+ */
+/* line 31, D:/OSPanel/domains/project-1/src/sass/normalizes.scss */
+main {
+  display: block;
+}
+
+/**
+ * Correct the font size and margin on `h1` elements within `section` and
+ * `article` contexts in Chrome, Firefox, and Safari.
+ */
+/* line 40, D:/OSPanel/domains/project-1/src/sass/normalizes.scss */
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+
+/* Grouping content
+   ========================================================================== */
+/**
+ * 1. Add the correct box sizing in Firefox.
+ * 2. Show the overflow in Edge and IE.
+ */
+/* line 53, D:/OSPanel/domains/project-1/src/sass/normalizes.scss */
+hr {
+  box-sizing: content-box;
+  /* 1 */
+  height: 0;
+  /* 1 */
+  overflow: visible;
+  /* 2 */
+}
+
+/**
+ * 1. Correct the inheritance and scaling of font size in all browsers.
+ * 2. Correct the odd `em` font sizing in all browsers.
+ */
+/* line 64, D:/OSPanel/domains/project-1/src/sass/normalizes.scss */
+pre {
+  font-family: monospace, monospace;
+  /* 1 */
+  font-size: 1em;
+  /* 2 */
+}
+
+/* Text-level semantics
+   ========================================================================== */
+/**
+ * Remove the gray background on active links in IE 10.
+ */
+/* line 76, D:/OSPanel/domains/project-1/src/sass/normalizes.scss */
+a {
+  background-color: transparent;
+}
+
+/**
+ * 1. Remove the bottom border in Chrome 57-
+ * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.
+ */
+/* line 85, D:/OSPanel/domains/project-1/src/sass/normalizes.scss */
+abbr[title] {
+  border-bottom: none;
+  /* 1 */
+  text-decoration: underline;
+  /* 2 */
+  text-decoration: underline dotted;
+  /* 2 */
+}
+
+/**
+ * Add the correct font weight in Chrome, Edge, and Safari.
+ */
+/* line 95, D:/OSPanel/domains/project-1/src/sass/normalizes.scss */
+b,
+strong {
+  font-weight: bolder;
+}
+
+/**
+ * 1. Correct the inheritance and scaling of font size in all browsers.
+ * 2. Correct the odd `em` font sizing in all browsers.
+ */
+/* line 105, D:/OSPanel/domains/project-1/src/sass/normalizes.scss */
+code,
+kbd,
+samp {
+  font-family: monospace, monospace;
+  /* 1 */
+  font-size: 1em;
+  /* 2 */
+}
+
+/**
+ * Add the correct font size in all browsers.
+ */
+/* line 116, D:/OSPanel/domains/project-1/src/sass/normalizes.scss */
+small {
+  font-size: 80%;
+}
+
+/**
+ * Prevent `sub` and `sup` elements from affecting the line height in
+ * all browsers.
+ */
+/* line 125, D:/OSPanel/domains/project-1/src/sass/normalizes.scss */
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+/* line 133, D:/OSPanel/domains/project-1/src/sass/normalizes.scss */
+sub {
+  bottom: -0.25em;
+}
+
+/* line 137, D:/OSPanel/domains/project-1/src/sass/normalizes.scss */
+sup {
+  top: -0.5em;
+}
+
+/* Embedded content
+   ========================================================================== */
+/**
+ * Remove the border on images inside links in IE 10.
+ */
+/* line 148, D:/OSPanel/domains/project-1/src/sass/normalizes.scss */
+img {
+  border-style: none;
+}
+
+/* Forms
+   ========================================================================== */
+/**
+ * 1. Change the font styles in all browsers.
+ * 2. Remove the margin in Firefox and Safari.
+ */
+/* line 160, D:/OSPanel/domains/project-1/src/sass/normalizes.scss */
+button,
+input,
+optgroup,
+select,
+textarea {
+  font-family: inherit;
+  /* 1 */
+  font-size: 100%;
+  /* 1 */
+  line-height: 1.15;
+  /* 1 */
+  margin: 0;
+  /* 2 */
+}
+
+/**
+ * Show the overflow in IE.
+ * 1. Show the overflow in Edge.
+ */
+/* line 176, D:/OSPanel/domains/project-1/src/sass/normalizes.scss */
+button,
+input {
+  /* 1 */
+  overflow: visible;
+}
+
+/**
+ * Remove the inheritance of text transform in Edge, Firefox, and IE.
+ * 1. Remove the inheritance of text transform in Firefox.
+ */
+/* line 186, D:/OSPanel/domains/project-1/src/sass/normalizes.scss */
+button,
+select {
+  /* 1 */
+  text-transform: none;
+}
+
+/**
+ * Correct the inability to style clickable types in iOS and Safari.
+ */
+/* line 195, D:/OSPanel/domains/project-1/src/sass/normalizes.scss */
+button,
+[type="button"],
+[type="reset"],
+[type="submit"] {
+  -webkit-appearance: button;
+}
+
+/**
+ * Remove the inner border and padding in Firefox.
+ */
+/* line 206, D:/OSPanel/domains/project-1/src/sass/normalizes.scss */
+button::-moz-focus-inner,
+[type="button"]::-moz-focus-inner,
+[type="reset"]::-moz-focus-inner,
+[type="submit"]::-moz-focus-inner {
+  border-style: none;
+  padding: 0;
+}
+
+/**
+ * Restore the focus styles unset by the previous rule.
+ */
+/* line 218, D:/OSPanel/domains/project-1/src/sass/normalizes.scss */
+button:-moz-focusring,
+[type="button"]:-moz-focusring,
+[type="reset"]:-moz-focusring,
+[type="submit"]:-moz-focusring {
+  outline: 1px dotted ButtonText;
+}
+
+/**
+ * Correct the padding in Firefox.
+ */
+/* line 229, D:/OSPanel/domains/project-1/src/sass/normalizes.scss */
+fieldset {
+  padding: 0.35em 0.75em 0.625em;
+}
+
+/**
+ * 1. Correct the text wrapping in Edge and IE.
+ * 2. Correct the color inheritance from `fieldset` elements in IE.
+ * 3. Remove the padding so developers are not caught out when they zero out
+ *    `fieldset` elements in all browsers.
+ */
+/* line 240, D:/OSPanel/domains/project-1/src/sass/normalizes.scss */
+legend {
+  box-sizing: border-box;
+  /* 1 */
+  color: inherit;
+  /* 2 */
+  display: table;
+  /* 1 */
+  max-width: 100%;
+  /* 1 */
+  padding: 0;
+  /* 3 */
+  white-space: normal;
+  /* 1 */
+}
+
+/**
+ * Add the correct vertical alignment in Chrome, Firefox, and Opera.
+ */
+/* line 253, D:/OSPanel/domains/project-1/src/sass/normalizes.scss */
+progress {
+  vertical-align: baseline;
+}
+
+/**
+ * Remove the default vertical scrollbar in IE 10+.
+ */
+/* line 261, D:/OSPanel/domains/project-1/src/sass/normalizes.scss */
+textarea {
+  overflow: auto;
+}
+
+/**
+ * 1. Add the correct box sizing in IE 10.
+ * 2. Remove the padding in IE 10.
+ */
+/* line 270, D:/OSPanel/domains/project-1/src/sass/normalizes.scss */
+[type="checkbox"],
+[type="radio"] {
+  box-sizing: border-box;
+  /* 1 */
+  padding: 0;
+  /* 2 */
+}
+
+/**
+ * Correct the cursor style of increment and decrement buttons in Chrome.
+ */
+/* line 280, D:/OSPanel/domains/project-1/src/sass/normalizes.scss */
+[type="number"]::-webkit-inner-spin-button,
+[type="number"]::-webkit-outer-spin-button {
+  height: auto;
+}
+
+/**
+ * 1. Correct the odd appearance in Chrome and Safari.
+ * 2. Correct the outline style in Safari.
+ */
+/* line 290, D:/OSPanel/domains/project-1/src/sass/normalizes.scss */
+[type="search"] {
+  -webkit-appearance: textfield;
+  /* 1 */
+  outline-offset: -2px;
+  /* 2 */
+}
+
+/**
+ * Remove the inner padding in Chrome and Safari on macOS.
+ */
+/* line 299, D:/OSPanel/domains/project-1/src/sass/normalizes.scss */
+[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+/**
+ * 1. Correct the inability to style clickable types in iOS and Safari.
+ * 2. Change font properties to `inherit` in Safari.
+ */
+/* line 308, D:/OSPanel/domains/project-1/src/sass/normalizes.scss */
+::-webkit-file-upload-button {
+  -webkit-appearance: button;
+  /* 1 */
+  font: inherit;
+  /* 2 */
+}
+
+/* Interactive
+   ========================================================================== */
+/*
+ * Add the correct display in Edge, IE 10+, and Firefox.
+ */
+/* line 320, D:/OSPanel/domains/project-1/src/sass/normalizes.scss */
+details {
+  display: block;
+}
+
+/*
+ * Add the correct display in all browsers.
+ */
+/* line 328, D:/OSPanel/domains/project-1/src/sass/normalizes.scss */
+summary {
+  display: list-item;
+}
+
+/* Misc
+   ========================================================================== */
+/**
+ * Add the correct display in IE 10+.
+ */
+/* line 339, D:/OSPanel/domains/project-1/src/sass/normalizes.scss */
+template {
+  display: none;
+}
+
+/**
+ * Add the correct display in IE 10.
+ */
+/* line 347, D:/OSPanel/domains/project-1/src/sass/normalizes.scss */
+[hidden] {
+  display: none;
+}
+
+/* line 1, D:/OSPanel/domains/project-1/src/sass/resets.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* line 21, D:/OSPanel/domains/project-1/src/sass/resets.scss */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+/* line 25, D:/OSPanel/domains/project-1/src/sass/resets.scss */
+html {
+  height: 100%;
+}
+
+/* line 28, D:/OSPanel/domains/project-1/src/sass/resets.scss */
+body {
+  line-height: 1;
+}
+
+/* line 31, D:/OSPanel/domains/project-1/src/sass/resets.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 34, D:/OSPanel/domains/project-1/src/sass/resets.scss */
+blockquote, q {
+  quotes: none;
+}
+
+/* line 37, D:/OSPanel/domains/project-1/src/sass/resets.scss */
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+/* line 42, D:/OSPanel/domains/project-1/src/sass/resets.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 4, D:/OSPanel/domains/project-1/src/sass/style.sass */
+* {
+  box-sizing: border-box;
+}
+
+/* line 7, D:/OSPanel/domains/project-1/src/sass/style.sass */
+p, i, a, h1, h2, h3 {
+  font-family: 'Roboto', sans-serif;
+}
+
+/* line 19, D:/OSPanel/domains/project-1/src/sass/style.sass */
+.container {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+/* line 23, D:/OSPanel/domains/project-1/src/sass/style.sass */
+.main-section {
+  height: 800px;
+  background: rgba(47, 72, 88, 0.1);
+}
+
+/* line 26, D:/OSPanel/domains/project-1/src/sass/style.sass */
+.main-section__top-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  height: 70px;
+  background: #ffffff;
+}
+
+/* line 33, D:/OSPanel/domains/project-1/src/sass/style.sass */
+.main-section__logo {
+  width: 230px;
+}
+
+/* line 35, D:/OSPanel/domains/project-1/src/sass/style.sass */
+.main-section__work-text {
+  color: #2F4858;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+/* line 39, D:/OSPanel/domains/project-1/src/sass/style.sass */
+.main-section__work-text i {
+  padding-right: 12px;
+  color: #F26419;
+}
+
+/* line 42, D:/OSPanel/domains/project-1/src/sass/style.sass */
+.main-section__contact-num-phone {
+  color: #2F4858;
+  font-size: 16px;
+  font-weight: 500;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* line 48, D:/OSPanel/domains/project-1/src/sass/style.sass */
+.main-section__contact-num-phone i {
+  padding-right: 12px;
+  color: #F26419;
+}
+
+/* line 51, D:/OSPanel/domains/project-1/src/sass/style.sass */
+.main-section__contact-num-phone:hover {
+  color: #33658A;
+}
+
+/* line 56, D:/OSPanel/domains/project-1/src/sass/style.sass */
+.main-section__call-btn {
+  background-color: #F26419;
+  border: 2px solid #F26419;
+  border-radius: 28px;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 500;
+  padding: 10px 26px;
+  text-decoration: none;
+}
+
+/* line 65, D:/OSPanel/domains/project-1/src/sass/style.sass */
+.main-section__call-btn:hover {
+  background-color: #ffffff;
+  border: 2px solid #F26419;
+  color: #F26419;
+}
+
+/* line 69, D:/OSPanel/domains/project-1/src/sass/style.sass */
+.main-section__nav-row {
+  height: 40px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  background: #F26419;
+}
+
+/* line 76, D:/OSPanel/domains/project-1/src/sass/style.sass */
+.main-section__img {
+  height: 690px;
+  background-image: url(../img/window.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  opacity: 30%;
+  position: static;
+  z-index: 5;
+  margin-top: -633px;
+}
+
+/* line 88, D:/OSPanel/domains/project-1/src/sass/style.sass */
+.nav-menu__list {
+  display: flex;
+  flex-direction: row;
+}
+
+/* line 91, D:/OSPanel/domains/project-1/src/sass/style.sass */
+.nav-menu__item {
+  margin-right: 40px;
+}
+
+/* line 93, D:/OSPanel/domains/project-1/src/sass/style.sass */
+.nav-menu__item:last-child {
+  margin-right: 0px;
+}
+
+/* line 95, D:/OSPanel/domains/project-1/src/sass/style.sass */
+.nav-menu__item-link {
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+/* line 100, D:/OSPanel/domains/project-1/src/sass/style.sass */
+.nav-menu__item-link:hover {
+  color: #33658A;
+}
+
+/* line 103, D:/OSPanel/domains/project-1/src/sass/style.sass */
+.left-wrapper {
+  position: relative;
+  top: 25px;
+}
+
+/* line 106, D:/OSPanel/domains/project-1/src/sass/style.sass */
+.left-wrapper__img {
+  height: 630px;
+  left: 70px;
+  position: relative;
+  z-index: 5;
+}
+
+/* line 111, D:/OSPanel/domains/project-1/src/sass/style.sass */
+.left-wrapper__rectangle-b {
+  position: absolute;
+  top: 200px;
+  left: -50px;
+  width: 500px;
+  height: 200px;
+  background: #86bbd8;
+  opacity: 70%;
+  border-radius: 100px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  transform: rotate(-64deg);
+  z-index: 2;
+}
+
+/* line 123, D:/OSPanel/domains/project-1/src/sass/style.sass */
+.left-wrapper__rectangle-o {
+  position: absolute;
+  top: 210px;
+  left: -30px;
+  width: 560px;
+  height: 200px;
+  background: #F26419;
+  opacity: 90%;
+  border-radius: 100px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  transform: rotate(-51deg);
+  z-index: 3;
+}
+
+/* line 135, D:/OSPanel/domains/project-1/src/sass/style.sass */
+.left-wrapper__rectangle-g {
+  position: absolute;
+  top: 220px;
+  left: -10px;
+  width: 550px;
+  height: 200px;
+  background: #2F4858;
+  opacity: 70%;
+  border-radius: 100px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  transform: rotate(-37deg);
+  z-index: 1;
+}
+
+/* line 148, D:/OSPanel/domains/project-1/src/sass/style.sass */
+.right-wrapper {
+  position: relative;
+  top: 25px;
+}
+
+/* line 151, D:/OSPanel/domains/project-1/src/sass/style.sass */
+.right-wrapper__title-h1 {
+  max-width: 500px;
+  font-size: 36px;
+  font-weight: 600;
+  color: #33658A;
+  position: absolute;
+  text-align: left;
+  right: 20px;
+  top: -500px;
+  z-index: 10;
+}
+
+/* line 161, D:/OSPanel/domains/project-1/src/sass/style.sass */
+.right-wrapper__subtitle {
+  max-width: 700px;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 2;
+  color: #2F4858;
+  position: absolute;
+  text-align: right;
+  right: 20px;
+  top: -400px;
+  z-index: 10;
+}
+
+/* line 172, D:/OSPanel/domains/project-1/src/sass/style.sass */
+.right-wrapper__btn {
+  position: absolute;
+  background-color: #33658A;
+  border: 2px solid #ffffff;
+  border-radius: 28px;
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 500;
+  padding: 10px 36px;
+  text-decoration: none;
+  right: 20px;
+  top: -100px;
+  z-index: 10;
+}
+
+/* line 185, D:/OSPanel/domains/project-1/src/sass/style.sass */
+.right-wrapper__btn:hover {
+  background-color: #ffffff;
+  border: 2px solid #F26419;
+  color: #F26419;
+}
+
+/* line 190, D:/OSPanel/domains/project-1/src/sass/style.sass */
+.service-section {
+  height: 400px;
+}
+
+/* line 192, D:/OSPanel/domains/project-1/src/sass/style.sass */
+.service-section__container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+/* line 196, D:/OSPanel/domains/project-1/src/sass/style.sass */
+.service-section__cards {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 70px;
+}
+
+/* line 203, D:/OSPanel/domains/project-1/src/sass/style.sass */
+.title {
+  font-size: 28px;
+  font-weight: 500;
+  color: #2F4858;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+/* line 209, D:/OSPanel/domains/project-1/src/sass/style.sass */
+.title__hr {
+  background: #F26419;
+  border: none;
+  height: 3px;
+  width: 50%;
+  bottom: 0px;
+  margin: 5px 25% 0 25%;
+}
+
+/* line 217, D:/OSPanel/domains/project-1/src/sass/style.sass */
+.services {
+  position: relative;
+  margin-top: 0px;
+}
+
+/* line 220, D:/OSPanel/domains/project-1/src/sass/style.sass */
+.services__ellipse {
+  position: absolute;
+  width: 80px;
+  height: 80px;
+  background: #F26419;
+  border-radius: 100px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+/* line 227, D:/OSPanel/domains/project-1/src/sass/style.sass */
+.services__img {
+  position: relative;
+  margin-left: 30px;
+  margin-top: -40px;
+}
+
+/* line 231, D:/OSPanel/domains/project-1/src/sass/style.sass */
+.services__title {
+  font-size: 16px;
+  font-weight: 500;
+  color: #2F4858;
+  margin-top: 80px;
+}
+
+/* line 237, D:/OSPanel/domains/project-1/src/sass/style.sass */
+.catalog-section {
+  height: 1100px;
+  background: rgba(47, 72, 88, 0.1);
+}
+
+/* line 240, D:/OSPanel/domains/project-1/src/sass/style.sass */
+.catalog-section__container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+/* line 244, D:/OSPanel/domains/project-1/src/sass/style.sass */
+.catalog-section__row {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+/* line 250, D:/OSPanel/domains/project-1/src/sass/style.sass */
+.catalog-section__col {
+  width: 25%;
+}
+
+/* line 253, D:/OSPanel/domains/project-1/src/sass/style.sass */
+.cards {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: #ffffff;
+  width: 262px;
+  height: 440px;
+  border-radius: 10px;
+}
+
+/* line 261, D:/OSPanel/domains/project-1/src/sass/style.sass */
+.cards__subtitle {
+  font-weight: 300;
+  font-style: italic;
+  font-size: 14px;
+}
+
+/* line 265, D:/OSPanel/domains/project-1/src/sass/style.sass */
+.cards__img {
+  width: 262px;
+  object-fit: cover;
+}
+
+/* line 268, D:/OSPanel/domains/project-1/src/sass/style.sass */
+.cards__title {
+  font-size: 22px;
+  font-weight: 500;
+  color: #2F4858;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+/* line 274, D:/OSPanel/domains/project-1/src/sass/style.sass */
+.cards__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 15px;
+}
+
+/* line 279, D:/OSPanel/domains/project-1/src/sass/style.sass */
+.cards__container p {
+  font-size: 14px;
+  font-weight: 500;
+  color: #2F4858;
+}
+
+/* line 283, D:/OSPanel/domains/project-1/src/sass/style.sass */
+.cards__ellipses {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 200px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+/* line 290, D:/OSPanel/domains/project-1/src/sass/style.sass */
+.cards__ellipse-o {
+  width: 10px;
+  height: 10px;
+  background: #F26419;
+  border-radius: 100px;
+}
+
+/* line 295, D:/OSPanel/domains/project-1/src/sass/style.sass */
+.cards__ellipse-gop {
+  width: 10px;
+  height: 10px;
+  background: rgba(47, 72, 88, 0.1);
+  border-radius: 100px;
+}
+
+/* line 300, D:/OSPanel/domains/project-1/src/sass/style.sass */
+.cards__ellipse-b {
+  width: 10px;
+  height: 10px;
+  background: #33658A;
+  border-radius: 100px;
+}
+
+/* line 305, D:/OSPanel/domains/project-1/src/sass/style.sass */
+.cards__call-btn {
+  background-color: #F26419;
+  border: 2px solid #F26419;
+  border-radius: 28px;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 500;
+  padding: 10px 26px;
+  text-decoration: none;
+  margin-top: 10px;
+}
+
+/* line 315, D:/OSPanel/domains/project-1/src/sass/style.sass */
+.cards__call-btn:hover {
+  background-color: #ffffff;
+  border: 2px solid #F26419;
+  color: #F26419;
+}
+
+/* line 320, D:/OSPanel/domains/project-1/src/sass/style.sass */
+.price-section {
+  height: 680px;
+  background: #ffffff;
+}
+
+/* line 323, D:/OSPanel/domains/project-1/src/sass/style.sass */
+.price-section__container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+/* line 327, D:/OSPanel/domains/project-1/src/sass/style.sass */
+.price-section__row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+/* line 333, D:/OSPanel/domains/project-1/src/sass/style.sass */
+.price-section__col {
+  margin-right: 20px;
+}
+
+/* line 335, D:/OSPanel/domains/project-1/src/sass/style.sass */
+.price-section__cards {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: rgba(47, 72, 88, 0.1);
+  width: 350px;
+  height: 500px;
+  padding: 15px 15px 15px 15px;
+  border: 1px solid rgba(47, 72, 88, 0.1);
+  border-radius: 10px;
+}
+
+/* line 345, D:/OSPanel/domains/project-1/src/sass/style.sass */
+.price-section__cards-img {
+  width: 320px;
+  object-fit: cover;
+}
+
+/* line 348, D:/OSPanel/domains/project-1/src/sass/style.sass */
+.price-section__cards-title {
+  font-size: 22px;
+  font-weight: 600;
+  color: #F26419;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+/* line 354, D:/OSPanel/domains/project-1/src/sass/style.sass */
+.price-section__cards-subtitle {
+  font-weight: 300;
+  font-style: italic;
+  font-size: 14px;
+}
+
+/* line 358, D:/OSPanel/domains/project-1/src/sass/style.sass */
+.price-section__call-btn {
+  background-color: #33658A;
+  border: 2px solid #33658A;
+  border-radius: 28px;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 500;
+  padding: 10px 26px;
+  text-decoration: none;
+  margin-top: 25px;
+}
+
+/* line 368, D:/OSPanel/domains/project-1/src/sass/style.sass */
+.price-section__call-btn:hover {
+  background-color: #ffffff;
+  border: 2px solid #33658A;
+  color: #33658A;
+}
+
+/* line 373, D:/OSPanel/domains/project-1/src/sass/style.sass */
+.aboute-section {
+  height: 700px;
+  background: rgba(47, 72, 88, 0.1);
+}
+
+/* line 376, D:/OSPanel/domains/project-1/src/sass/style.sass */
+.aboute-section__container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+/* line 380, D:/OSPanel/domains/project-1/src/sass/style.sass */
+.aboute-section__wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+/* line 384, D:/OSPanel/domains/project-1/src/sass/style.sass */
+.aboute-section__left-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 540px;
+  width: 525px;
+  border-radius: 10px;
+  background: rgba(255, 255, 255, 0.75);
+  padding-top: 100px;
+  padding-bottom: 100px;
+  padding-left: 40px;
+}
+
+/* line 395, D:/OSPanel/domains/project-1/src/sass/style.sass */
+.aboute-section__description {
+  font-size: 24px;
+  font-weight: 400;
+  color: #2F4858;
+}
+
+/* line 399, D:/OSPanel/domains/project-1/src/sass/style.sass */
+.aboute-section__description i {
+  color: #F26419;
+  padding-right: 10px;
+}
+
+/* line 402, D:/OSPanel/domains/project-1/src/sass/style.sass */
+.aboute-section__right-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  height: 540px;
+  width: 525px;
+  border-radius: 10px;
+  background: rgba(255, 255, 255, 0.75);
+}
+
+/* line 410, D:/OSPanel/domains/project-1/src/sass/style.sass */
+.aboute-section__right-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+/* line 414, D:/OSPanel/domains/project-1/src/sass/style.sass */
+.aboute-section__right-row div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 175px;
+  height: 245px;
+}
+
+/* line 420, D:/OSPanel/domains/project-1/src/sass/style.sass */
+.aboute-section__right-row img {
+  width: 175px;
+  object-fit: cover;
+}
+
+/* line 424, D:/OSPanel/domains/project-1/src/sass/style.sass */
+.portfolio-section {
+  height: 700px;
+  background: #ffffff;
+}
+
+/* line 427, D:/OSPanel/domains/project-1/src/sass/style.sass */
+.portfolio-section__container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+/* line 438, D:/OSPanel/domains/project-1/src/sass/style.sass */
+.carousel-inner {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+}
+
+/* line 443, D:/OSPanel/domains/project-1/src/sass/style.sass */
+.carousel-open:checked + .carousel-item {
+  position: static;
+  opacity: 100;
+}
+
+/* line 447, D:/OSPanel/domains/project-1/src/sass/style.sass */
+.carousel-item {
+  position: absolute;
+  opacity: 0;
+  -webkit-transition: opacity 0.6s ease-out;
+  transition: opacity 0.6s ease-out;
+}
+
+/* line 453, D:/OSPanel/domains/project-1/src/sass/style.sass */
+.carousel-item img {
+  display: block;
+  height: auto;
+  max-width: 100%;
+}
+
+/* line 459, D:/OSPanel/domains/project-1/src/sass/style.sass */
+.carousel-control {
+  background: rgba(0, 0, 0, 0.28);
+  border-radius: 50%;
+  color: #fff;
+  cursor: pointer;
+  display: none;
+  font-size: 40px;
+  height: 40px;
+  line-height: 35px;
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translate(0, -50%);
+  cursor: pointer;
+  -ms-transform: translate(0, -50%);
+  transform: translate(0, -50%);
+  text-align: center;
+  width: 40px;
+  z-index: 10;
+}
+
+/* line 478, D:/OSPanel/domains/project-1/src/sass/style.sass */
+.carousel-control.prev {
+  left: 2%;
+}
+
+/* line 481, D:/OSPanel/domains/project-1/src/sass/style.sass */
+.carousel-control.next {
+  right: 2%;
+}
+
+/* line 484, D:/OSPanel/domains/project-1/src/sass/style.sass */
+.carousel-control:hover {
+  background: rgba(0, 0, 0, 0.8);
+  color: #aaaaaa;
+}
+
+/* line 488, D:/OSPanel/domains/project-1/src/sass/style.sass */
+#carousel-1:checked ~ .control-1,
+#carousel-2:checked ~ .control-2,
+#carousel-3:checked ~ .control-3 {
+  display: block;
+}
+
+/* line 493, D:/OSPanel/domains/project-1/src/sass/style.sass */
+.carousel-indicators {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  bottom: 2%;
+  left: 0;
+  right: 0;
+  text-align: center;
+  z-index: 10;
+}
+
+/* line 504, D:/OSPanel/domains/project-1/src/sass/style.sass */
+.carousel-indicators li {
+  display: inline-block;
+  margin: 0 5px;
+}
+
+/* line 508, D:/OSPanel/domains/project-1/src/sass/style.sass */
+.carousel-bullet {
+  color: #fff;
+  cursor: pointer;
+  display: block;
+  font-size: 35px;
+}
+
+/* line 514, D:/OSPanel/domains/project-1/src/sass/style.sass */
+.carousel-bullet:hover {
+  color: #aaaaaa;
+}
+
+/* line 517, D:/OSPanel/domains/project-1/src/sass/style.sass */
+#carousel-1:checked ~ .control-1 ~ .carousel-indicators li:nth-child(1) .carousel-bullet,
+#carousel-2:checked ~ .control-2 ~ .carousel-indicators li:nth-child(2) .carousel-bullet,
+#carousel-3:checked ~ .control-3 ~ .carousel-indicators li:nth-child(3) .carousel-bullet {
+  color: #428bca;
+}
+
+/* line 522, D:/OSPanel/domains/project-1/src/sass/style.sass */
+#title {
+  width: 100%;
+  position: absolute;
+  padding: 0px;
+  margin: 0px auto;
+  text-align: center;
+  font-size: 27px;
+  color: white;
+  font-family: 'Open Sans', sans-serif;
+  z-index: 9999;
+  text-shadow: 0px 1px 2px rgba(0, 0, 0, 0.33), -1px 0px 2px rgba(255, 255, 255, 0);
+}
+
+/* line 534, D:/OSPanel/domains/project-1/src/sass/style.sass */
+.carousel-item img {
+  height: 550px;
+  width: 1140px;
+  object-fit: cover;
+}
+
+/* line 542, D:/OSPanel/domains/project-1/src/sass/style.sass */
+.btn-up {
+  /* фиксированное позиционирование */
+  position: fixed;
+  /* цвет фона */
+  background-color: #F26419;
+  /* расстояние от правого края окна браузера */
+  right: 20px;
+  /* расстояние от нижнего края окна браузера */
+  bottom: 0;
+  /* скругление верхнего левого угла */
+  border-top-left-radius: 8px;
+  /* скругление верхнего правого угла */
+  border-top-right-radius: 8px;
+  /* вид курсора */
+  cursor: pointer;
+  /* отображение элемента как flex */
+  display: flex;
+  /* выравниваем элементы внутри элемента по центру вдоль поперечной оси */
+  align-items: center;
+  /* выравниваем элементы внутри элемента по центру вдоль главной оси */
+  justify-content: center;
+  /* ширина элемента */
+  width: 60px;
+  /* высота элемента */
+  height: 50px;
+}
+
+/* line 567, D:/OSPanel/domains/project-1/src/sass/style.sass */
+.btn-up::before {
+  content: "";
+  width: 40px;
+  height: 40px;
+  background: transparent no-repeat center center;
+  background-size: 100% 100%;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' fill='%23fff' viewBox='0 0 16 16'%3E%3Cpath fill-rule='evenodd' d='M7.646 4.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1-.708.708L8 5.707l-5.646 5.647a.5.5 0 0 1-.708-.708l6-6z'/%3E%3C/svg%3E");
+}
+
+/* line 574, D:/OSPanel/domains/project-1/src/sass/style.sass */
+.btn-up_hide {
+  display: none;
+}
+
+@media (hover: hover) and (pointer: fine) {
+  /* line 578, D:/OSPanel/domains/project-1/src/sass/style.sass */
+  .btn-up:hover {
+    background-color: #512da8;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
