@@ -1064,20 +1064,121 @@ p, i, a, h1, h2, h3 {
   justify-content: center;
 }
 
-/* line 438, D:/OSPanel/domains/project-1/src/sass/style.sass */
+/* line 432, D:/OSPanel/domains/project-1/src/sass/style.sass */
+.partner-section {
+  height: 460px;
+  background: rgba(47, 72, 88, 0.1);
+}
+
+/* line 435, D:/OSPanel/domains/project-1/src/sass/style.sass */
+.partner-section__container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+/* line 439, D:/OSPanel/domains/project-1/src/sass/style.sass */
+.partner-section__row-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+/* line 445, D:/OSPanel/domains/project-1/src/sass/style.sass */
+.partner-section__col-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 240px;
+  height: 126px;
+}
+
+/* line 451, D:/OSPanel/domains/project-1/src/sass/style.sass */
+.partner-section__brand {
+  width: 240px;
+  object-fit: cover;
+  border-radius: 10px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+/* line 457, D:/OSPanel/domains/project-1/src/sass/style.sass */
+.contact-section {
+  height: 750px;
+  background: #ffffff;
+}
+
+/* line 460, D:/OSPanel/domains/project-1/src/sass/style.sass */
+.contact-section__container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+/* line 464, D:/OSPanel/domains/project-1/src/sass/style.sass */
+.contact-section__wrp {
+  margin: 0 auto;
+  position: relative;
+}
+
+/* line 467, D:/OSPanel/domains/project-1/src/sass/style.sass */
+.contact-section__map-box {
+  position: absolute;
+  top: 170px;
+  left: 20px;
+  padding: 20px;
+  background: rgba(255, 255, 255, 0.1);
+  border: 1px solid #ddd;
+  z-index: 100;
+  width: 370px;
+  box-shadow: -1px -1px 24px 0px rgba(50, 50, 50, 0.5);
+}
+
+/* line 477, D:/OSPanel/domains/project-1/src/sass/style.sass */
+.contact-section__map-box h2 {
+  font-size: 28px;
+  font-weight: 500;
+  margin-left: 20px;
+  color: #2F4858;
+}
+
+/* line 482, D:/OSPanel/domains/project-1/src/sass/style.sass */
+.contact-section__map-box p {
+  font-size: 18px;
+  font-weight: 500;
+  color: #2F4858;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+/* line 488, D:/OSPanel/domains/project-1/src/sass/style.sass */
+.contact-section__map-box p a {
+  text-decoration: none;
+  color: #33658A;
+}
+
+/* line 503, D:/OSPanel/domains/project-1/src/sass/style.sass */
+.carousel {
+  position: relative;
+  box-shadow: 0px 1px 6px rgba(0, 0, 0, 0.64);
+  margin-top: 26px;
+}
+
+/* line 508, D:/OSPanel/domains/project-1/src/sass/style.sass */
 .carousel-inner {
   position: relative;
   overflow: hidden;
   width: 100%;
 }
 
-/* line 443, D:/OSPanel/domains/project-1/src/sass/style.sass */
+/* line 513, D:/OSPanel/domains/project-1/src/sass/style.sass */
 .carousel-open:checked + .carousel-item {
   position: static;
   opacity: 100;
 }
 
-/* line 447, D:/OSPanel/domains/project-1/src/sass/style.sass */
+/* line 517, D:/OSPanel/domains/project-1/src/sass/style.sass */
 .carousel-item {
   position: absolute;
   opacity: 0;
@@ -1085,14 +1186,14 @@ p, i, a, h1, h2, h3 {
   transition: opacity 0.6s ease-out;
 }
 
-/* line 453, D:/OSPanel/domains/project-1/src/sass/style.sass */
+/* line 523, D:/OSPanel/domains/project-1/src/sass/style.sass */
 .carousel-item img {
   display: block;
   height: auto;
   max-width: 100%;
 }
 
-/* line 459, D:/OSPanel/domains/project-1/src/sass/style.sass */
+/* line 529, D:/OSPanel/domains/project-1/src/sass/style.sass */
 .carousel-control {
   background: rgba(0, 0, 0, 0.28);
   border-radius: 50%;
@@ -1113,30 +1214,30 @@ p, i, a, h1, h2, h3 {
   z-index: 10;
 }
 
-/* line 478, D:/OSPanel/domains/project-1/src/sass/style.sass */
+/* line 548, D:/OSPanel/domains/project-1/src/sass/style.sass */
 .carousel-control.prev {
   left: 2%;
 }
 
-/* line 481, D:/OSPanel/domains/project-1/src/sass/style.sass */
+/* line 551, D:/OSPanel/domains/project-1/src/sass/style.sass */
 .carousel-control.next {
   right: 2%;
 }
 
-/* line 484, D:/OSPanel/domains/project-1/src/sass/style.sass */
+/* line 554, D:/OSPanel/domains/project-1/src/sass/style.sass */
 .carousel-control:hover {
   background: rgba(0, 0, 0, 0.8);
   color: #aaaaaa;
 }
 
-/* line 488, D:/OSPanel/domains/project-1/src/sass/style.sass */
+/* line 558, D:/OSPanel/domains/project-1/src/sass/style.sass */
 #carousel-1:checked ~ .control-1,
 #carousel-2:checked ~ .control-2,
 #carousel-3:checked ~ .control-3 {
   display: block;
 }
 
-/* line 493, D:/OSPanel/domains/project-1/src/sass/style.sass */
+/* line 563, D:/OSPanel/domains/project-1/src/sass/style.sass */
 .carousel-indicators {
   list-style: none;
   margin: 0;
@@ -1149,13 +1250,13 @@ p, i, a, h1, h2, h3 {
   z-index: 10;
 }
 
-/* line 504, D:/OSPanel/domains/project-1/src/sass/style.sass */
+/* line 574, D:/OSPanel/domains/project-1/src/sass/style.sass */
 .carousel-indicators li {
   display: inline-block;
   margin: 0 5px;
 }
 
-/* line 508, D:/OSPanel/domains/project-1/src/sass/style.sass */
+/* line 578, D:/OSPanel/domains/project-1/src/sass/style.sass */
 .carousel-bullet {
   color: #fff;
   cursor: pointer;
@@ -1163,19 +1264,19 @@ p, i, a, h1, h2, h3 {
   font-size: 35px;
 }
 
-/* line 514, D:/OSPanel/domains/project-1/src/sass/style.sass */
+/* line 584, D:/OSPanel/domains/project-1/src/sass/style.sass */
 .carousel-bullet:hover {
   color: #aaaaaa;
 }
 
-/* line 517, D:/OSPanel/domains/project-1/src/sass/style.sass */
+/* line 587, D:/OSPanel/domains/project-1/src/sass/style.sass */
 #carousel-1:checked ~ .control-1 ~ .carousel-indicators li:nth-child(1) .carousel-bullet,
 #carousel-2:checked ~ .control-2 ~ .carousel-indicators li:nth-child(2) .carousel-bullet,
 #carousel-3:checked ~ .control-3 ~ .carousel-indicators li:nth-child(3) .carousel-bullet {
   color: #428bca;
 }
 
-/* line 522, D:/OSPanel/domains/project-1/src/sass/style.sass */
+/* line 592, D:/OSPanel/domains/project-1/src/sass/style.sass */
 #title {
   width: 100%;
   position: absolute;
@@ -1189,14 +1290,14 @@ p, i, a, h1, h2, h3 {
   text-shadow: 0px 1px 2px rgba(0, 0, 0, 0.33), -1px 0px 2px rgba(255, 255, 255, 0);
 }
 
-/* line 534, D:/OSPanel/domains/project-1/src/sass/style.sass */
+/* line 604, D:/OSPanel/domains/project-1/src/sass/style.sass */
 .carousel-item img {
   height: 550px;
   width: 1140px;
   object-fit: cover;
 }
 
-/* line 542, D:/OSPanel/domains/project-1/src/sass/style.sass */
+/* line 610, D:/OSPanel/domains/project-1/src/sass/style.sass */
 .btn-up {
   /* фиксированное позиционирование */
   position: fixed;
@@ -1224,7 +1325,7 @@ p, i, a, h1, h2, h3 {
   height: 50px;
 }
 
-/* line 567, D:/OSPanel/domains/project-1/src/sass/style.sass */
+/* line 635, D:/OSPanel/domains/project-1/src/sass/style.sass */
 .btn-up::before {
   content: "";
   width: 40px;
@@ -1234,13 +1335,13 @@ p, i, a, h1, h2, h3 {
   background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' fill='%23fff' viewBox='0 0 16 16'%3E%3Cpath fill-rule='evenodd' d='M7.646 4.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1-.708.708L8 5.707l-5.646 5.647a.5.5 0 0 1-.708-.708l6-6z'/%3E%3C/svg%3E");
 }
 
-/* line 574, D:/OSPanel/domains/project-1/src/sass/style.sass */
+/* line 642, D:/OSPanel/domains/project-1/src/sass/style.sass */
 .btn-up_hide {
   display: none;
 }
 
 @media (hover: hover) and (pointer: fine) {
-  /* line 578, D:/OSPanel/domains/project-1/src/sass/style.sass */
+  /* line 646, D:/OSPanel/domains/project-1/src/sass/style.sass */
   .btn-up:hover {
     background-color: #512da8;
   }
